@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/btnUpdate1"
-        android:layout_width="246dp"
-        android:layout_height="87dp"
+        android:layout_width="242dp"
+        android:layout_height="84dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="12dp"
         android:layout_marginEnd="15dp"
@@ -34,35 +34,37 @@
         android:text="ADD"
         app:layout_constraintBottom_toTopOf="@+id/idDeletee"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnListar1"
-        android:layout_width="233dp"
-        android:layout_height="85dp"
+        android:layout_width="242dp"
+        android:layout_height="84dp"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginBottom="81dp"
+        android:layout_marginBottom="12dp"
         android:backgroundTint="#574FA1"
         android:text="TO LIST"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/idDeletee"
-        app:layout_constraintVertical_bias="0.238" />
+        app:layout_constraintVertical_bias="0.338" />
 
     <Button
         android:id="@+id/idDeletee"
-        android:layout_width="238dp"
-        android:layout_height="82dp"
-        android:layout_marginTop="396dp"
-        android:background="#562E83"
+        android:layout_width="242dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginEnd="15dp"
         android:backgroundTint="#693BAC"
         android:text="DELETE"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

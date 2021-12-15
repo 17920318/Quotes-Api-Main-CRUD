@@ -28,15 +28,16 @@
         android:text="id"
         app:layout_constraintBottom_toTopOf="@+id/quoteAgregar"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTitleAgregar"
-        app:layout_constraintVertical_bias="0.082" />
+        app:layout_constraintVertical_bias="0.468" />
 
     <EditText
         android:id="@+id/quoteAgregar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="56dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Quote"
@@ -47,7 +48,7 @@
         android:id="@+id/autorAgregar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="20dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Autor"
@@ -58,10 +59,11 @@
         android:id="@+id/btnagregarquote"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="136dp"
+        android:layout_marginBottom="108dp"
         android:text="ADD"
         app:layout_constraintBottom_toTopOf="@+id/txtv2"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView

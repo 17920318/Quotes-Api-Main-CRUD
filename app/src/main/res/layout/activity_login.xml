@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#B9D8E6"
+    android:background="#D7DADC"
     android:backgroundTint="@color/white"
     tools:context=".presentation.view.LoginActivity">
 
@@ -12,15 +12,15 @@
         android:id="@+id/etAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
+        android:layout_marginBottom="444dp"
         android:ems="10"
         android:hint="account"
         android:inputType="textPersonName"
         android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/etPassword"
@@ -43,7 +43,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginBottom="276dp"
+        android:layout_marginBottom="236dp"
         android:backgroundTint="@color/purple_500"
         android:text="Login"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -55,12 +55,11 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
+        android:layout_marginTop="124dp"
         android:text="LOGIN"
         android:textColor="@color/black"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -71,7 +70,17 @@
         android:layout_marginEnd="69dp"
         android:layout_marginBottom="120dp"
         android:clickable="true"
+        app:backgroundTint="#2F6531"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="142dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/itvo"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="41dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

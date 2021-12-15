@@ -10,30 +10,30 @@
         android:layout_width="227dp"
         android:layout_height="54dp"
         android:layout_marginTop="216dp"
-        android:layout_marginEnd="92dp"
         android:layout_marginBottom="270dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Inserte Id a Eliminar"
         app:layout_constraintBottom_toTopOf="@+id/txt3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btneliminar"
-        android:layout_width="105dp"
-        android:layout_height="37dp"
+        android:layout_width="124dp"
+        android:layout_height="50dp"
         android:layout_marginTop="184dp"
         android:background="#6E0920"
         android:backgroundTint="#9E2020"
         android:text="DELETE"
         app:layout_constraintBottom_toTopOf="@+id/txt3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/txtid"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.022" />
 
     <TextView
         android:id="@+id/txt3"
@@ -54,10 +54,11 @@
         android:layout_marginBottom="437dp"
         android:text="Eliminar Quote"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/txt3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
